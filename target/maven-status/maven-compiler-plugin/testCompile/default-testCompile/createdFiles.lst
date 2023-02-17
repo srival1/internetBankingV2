@@ -1,0 +1,11 @@
+com\internetBankingV2\testCases\BaseClass2.class
+com\internetBankingV2\pageObjects\LoginPage.class
+com\internetBankingV2\testCases\TC_LoginTest_001.class
+com\internetBankingV2\testCases\BaseClass1.class
+com\internetBankingV2\utilities\ExcelUtilities.class
+com\internetBankingV2\pageObjects\AddCustomerPage.class
+com\internetBankingV2\testCases\TC_LoginTestDDT_003.class
+com\internetBankingV2\testCases\TC_LoginTest_002.class
+com\internetBankingV2\testCases\TC_AddCustomer_004.class
+com\internetBankingV2\utilities\Reporting.class
+com\internetBankingV2\utilities\ReadConfig.class

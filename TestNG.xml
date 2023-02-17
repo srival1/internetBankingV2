@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd"> 
+
+<suite name="InternetBankingV2">
+	
+	<listeners>
+		<listener class-name="com.internetBankingV2.utilities.Reporting"/>
+	</listeners>
+	
+	<test name="LoginTest001">
+    <classes>  
+      <class name="com.internetBankingV2.testCases.TC_LoginTest_001">
+      <methods>
+		  <include name="loginTest1"/>
+		  <!--exclude name="loginTest"/-->
+	  </methods>
+      </class>
+  	</classes>
+  </test> <!-- Test -->
+	 
+  <test name="LoginTest002">
+	  <parameter name="browser" value="chrome"></parameter>
+    <classes>  
+      <class name="com.internetBankingV2.testCases.TC_LoginTest_002">
+      <methods>
+		  <include name="loginTest2"/>
+		  <!--exclude name="loginTest"/-->
+	  </methods>
+	  </class>
+    </classes>  
+  </test> <!-- Test -->
+  
+  
+  <!--
+  <test name="LoginDDTTest003">
+	  <parameter name="browser" value="edge"></parameter>
+    <classes>  
+      <class name="com.internetBankingV2.testCases.TC_LoginTestDDT_003">
+      <methods>
+		  <include name="loginTestDDT"/>
+	  </methods>
+      </class>
+  	</classes>
+  </test>
+  -->
+    
+    <test name="AddNewCustomerTest004">
+    <classes>  
+      <class name="com.internetBankingV2.testCases.TC_AddCustomer_004">
+      <methods>
+		  <include name="addNewCustomer"/>
+	  </methods>
+      </class>
+  	</classes>
+  </test> <!-- Test -->
+  
+
+</suite> <!-- Suite --> 
